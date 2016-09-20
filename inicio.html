@@ -1,10 +1,77 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
+
+<title>SICOPRO</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//storage.googleapis.com/code.getmdl.io/1.0.1/material.teal-red.min.css" />
+<script src="//storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script>
+
 </head>
 
 <body>
+<nav  style="position: relative; z-index: 5;">
+  <div class="container">
+    <ul>
+      <li><a href="inicio.html">Inicio</a></li>
+        <li> <a href="#">Catalogos<i class='fa fa-angle-down'></i></a>
+        <ul>
+          <li><a href="#">Aplicativos</a></li>
+          <li><a href="#">Modulos</a></li>
+          <li><a href="#">Actividades</a></li>
+           <li><a href="#">Agrupadores</a></li>
+        </ul>
+      </li>
+      <li class='sub-menu'> <a href="#">Reportes<i class='fa fa-angle-down'></i></a>
+        <ul>
+          <li><a href="historico.cfm">Historico de Ejecución</a></li>
+          <li><a href="promedio.cfm">Promedio de un proceso</a></li>
+          <li><a href="minuto.cfm">Minuto a Minuto</a></li>
+          <li><a href="facturacion.cfm">Analisis Procesos Facturación</a></li>
+          <li><a href="analisis_proceso.cfm">Analisis de un proceso</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script>
+$('nav li').hover(
+  function() {
+	  $('ul', this).stop().slideDown(200);
+  },
+	function() {
+    $('ul', this).stop().slideUp(200);
+  }
+);
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
 </body>
 </html>
