@@ -18,7 +18,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="lblActividad">Acti:</label>  
+  <label class="col-md-4 control-label" for="lblActividad">Actividad:</label>  
   <div class="col-md-4">
   <input id="txt_Actividad" name="txt_Actividad" type="text" placeholder="Actividad" class="form-control input-md" required="">
     
